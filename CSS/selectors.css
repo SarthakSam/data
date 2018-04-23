@@ -1,0 +1,21 @@
+*{
+	border: 1px red solid	;
+}
+
+h1 + div{
+	background-color: yellow;
+	color: green;
+}
+
+ul  li{
+	font-style: oblique;
+}
+
+a[href="www.google.com"]{
+	background-color: white;
+}
+
+div:hover{
+	justify-content: space-around;
+	background-color: #200050;
+}

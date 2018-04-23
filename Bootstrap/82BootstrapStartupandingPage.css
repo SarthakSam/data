@@ -1,0 +1,50 @@
+html{
+	height: 100%;
+}
+
+.container{
+	font-size: 1.20em;
+}
+.navbar{
+	padding: 0;
+}
+
+body{
+	background: url("purrfectMatch.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.row .col-lg-12{
+	color: #ffffff;
+	text-align: center;
+	margin: 25% auto;	
+	text-shadow: 1px 3px 4px #001895,
+	             2px 4px 8px #003095; 
+}
+
+.row .col-lg-12 h1{
+	font-size: 3.4em;
+	font-weight: 600;
+}
+
+.row .col-lg-12 p{
+	font-size: 1.20em;
+	font-weight: 500;
+}
+
+.row .col-lg-12 hr{
+	background-color: #ffffff;
+	height: 1px;
+	width: 450px;
+	border-bottom: rgb(0,0,0.2);
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	color: grey;
+}
+
+.navbar-light .navbar-brand{
+    color: grey;
+}

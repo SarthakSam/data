@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+table{
+	margin: 100px  auto 100px auto;
+}/*
+tr{
+	height: 100px;
+	width: 300px;	
+}*/
+td{
+	height: 100px;
+	width: 100px;
+}
+.middle{
+	border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+#center td{
+	border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+
+
+#outer{
+	margin:  0  auto  0 auto; 
+	height: 306px;
+	width: 306px;
+	/*background-color: #ff2030;*/
+	font-size: 0;
+}
+
+#outer div{
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+	display: inline-flex;
+}
